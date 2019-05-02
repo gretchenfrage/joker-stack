@@ -42,6 +42,7 @@ pub mod prelude {
         CoroutineSink,
         CoroutineStream,
     };
+    pub use corona::wrappers::ResultIterator;
     pub use generator::Gn as Generator;
 }
 
