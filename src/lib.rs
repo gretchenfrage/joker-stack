@@ -1,5 +1,6 @@
 
 pub extern crate corona;
+pub extern crate generator;
 
 #[macro_use]
 extern crate log;
@@ -41,6 +42,7 @@ pub mod prelude {
         CoroutineSink,
         CoroutineStream,
     };
+    pub use generator::Gn as Generator;
 }
 
 pub fn routine<I, E, F>(func: F) -> JokerRoutine<I, E, F>

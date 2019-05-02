@@ -11,6 +11,7 @@ failure = "0.1.5"
 through = "0.1.0"
 log = "0.4.6"
 corona = { git = "https://github.com/gretchenfrage/corona.git" }
+generator = "0.6.13"
 
 [dev-dependencies]
 pretty_env_logger = "0.3.0"
